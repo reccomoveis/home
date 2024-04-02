@@ -66,6 +66,30 @@
         .my-float {
             margin-top: 16px;
         }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1 0 calc(45% - 20px);
+            /* Definindo o tamanho dos cards */
+            background-color: #ccc;
+            color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .card img {
+            width: 100%;
+            /* Garantindo que a imagem ocupe todo o espaço disponível */
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
     </style>
     <script>
         function substituirImagemNaoEncontrada(element) {
@@ -83,8 +107,8 @@
     <nav>
         <a href="#home">Home</a>
         <a href="#produtos">Produtos</a>
-
     </nav>
+
     <section id="home" style="text-align: center; padding: 150px 20px; margin-top: 5vh; margin-bottom: 15vh;">
         <h2 style="margin-bottom: 20px;">Descubra o Conforto que Transforma Casas em Lares</h2>
         <p style="margin-bottom: 30px;">Na Recco Móveis, acreditamos que cada detalhe importa. Explore a nossa coleção
@@ -104,53 +128,58 @@
             Nossos Produtos</a>
     </section>
 
-
-
-
     <section id="produtos" style="text-align: center; padding: 100px 20px;">
         <h2 style="margin-bottom: 30px;">Nossos Produtos em Destaque</h2>
 
-        <div style="display: flex; flex-wrap: wrap; justify-content: space-around; gap: 20px;">
-<div style="flex: 1 0 calc(300px - 20px); background-color: #ccc; color: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-    <img src="produtos/GL4YYmQK6EdKY481acYTO009p6I5ByCF/imagem.jpg" alt="GL4YYmQK6EdKY481acYTO009p6I5ByCF" style="width: 100%; border-radius: 5px; margin-bottom: 15px;" onerror="substituirImagemNaoEncontrada(this)">
-    <h3>Mesa e Cadeiras</h3>
-    <p>Conjunto de Mesa Mais Seis Cadeiras</p>
-    <p style="font-weight: bold; margin-top: 10px;">R$3990,00 à vista ou 18x239,00</p>
-</div>
-            <div
-                style="flex: 1 0 calc(300px - 20px); background-color: #ccc; color: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                <img src="produtos/ME71gNhnUxUNWzXrIsygmrzRixFwWlo3/imagem.jpg" alt="ME71gNhnUxUNWzXrIsygmrzRixFwWlo3"
-                    style="width: 100%; border-radius: 5px; margin-bottom: 15px;"
+        <div class="card-container">
+            <div class="card">
+                <img src="produtos/mnlaEx6crAdCAHXEgexvB23bEWtPN9cD/imagem.jpg" alt="mnlaEx6crAdCAHXEgexvB23bEWtPN9cD"
                     onerror="substituirImagemNaoEncontrada(this)">
-                <h3>Mesa Redonda 2m</h3>
-                <p>Mesa Mais Quatro Cadeiras </p>
-                <p style="font-weight: bold; margin-top: 10px;">R$1690,00 à vista ou 18x109,90</p>
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
             </div>
-            <div
-                style="flex: 1 0 calc(300px - 20px); background-color: #ccc; color: #fff; padding: 20px; border-radius: 10px; margin-bottom: 20px;">
-                <img src="produtos/jvzWwtC6pf4kBiyXFdL91f1LVdDxIqLf/imagem.jpg" alt="jvzWwtC6pf4kBiyXFdL91f1LVdDxIqLf"
-                    style="width: 100%; border-radius: 5px; margin-bottom: 15px;"
+            <div class="card">
+                <img src="produtos/aTu6w8zfeu28e0g9rIRNzlZSr5pmHMgc/imagem.jpg" alt="aTu6w8zfeu28e0g9rIRNzlZSr5pmHMgc"
                     onerror="substituirImagemNaoEncontrada(this)">
-                <h3>Sofá</h3>
-                <p>Sofá 2m </p>
-                <p style="font-weight: bold; margin-top: 10px;">R$ 1190,00</p>
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
+            </div>
+            <div class="card">
+                <img src="produtos/OUjrDneJie5BYflNkeiEB6Cj9yN5OZN5/imagem.jpg" alt="OUjrDneJie5BYflNkeiEB6Cj9yN5OZN5"
+                    onerror="substituirImagemNaoEncontrada(this)">
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
+            </div>
+            <div class="card">
+                <img src="produtos/fczGZKbF9pE1MRO9HSaklcLF7xXFttaG/imagem.jpg" alt="fczGZKbF9pE1MRO9HSaklcLF7xXFttaG"
+                    onerror="substituirImagemNaoEncontrada(this)">
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
+            </div>
+            <div class="card">
+                <img src="produtos/PyQc8eRa15mZOqsbCtUHhU4bDoen7gY2/imagem.jpg" alt="PyQc8eRa15mZOqsbCtUHhU4bDoen7gY2"
+                    onerror="substituirImagemNaoEncontrada(this)">
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
+            </div>
+            <div class="card">
+                <img src="produtos/Jd23V5tFYebDTljxahamf8EgKBbGlywY/imagem.jpg" alt="Jd23V5tFYebDTljxahamf8EgKBbGlywY"
+                    onerror="substituirImagemNaoEncontrada(this)">
+                <h3></h3>
+                <p></p>
+                <p style="font-weight: bold; margin-top: 10px;"></p>
             </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+            <!-- Adicione mais cartões aqui, seguindo o mesmo padrão -->
         </div>
     </section>
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
     <a href="https://api.whatsapp.com/send?phone=+5519997364842&text=Olá, tudo bem? Como posso ajudar?" class="float"
         target="_blank">
